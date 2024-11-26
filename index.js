@@ -1,6 +1,7 @@
-function radommText(){
-    var text = ("abcdefghijklmnopqrstuvwxyz0123456789");
-    letter = text[Math.random() * text.length];
+
+function randomText(){
+    var text = ("abcdefghijklmnopqrstuvwxyz1234567890");
+    letter = text[Math.floor(Math.random()* text.length)];
     return letter;
 }
 
